@@ -37,7 +37,7 @@ jobs:
           cat output/results/metrics.json >> $GITHUB_STEP_SUMMARY
 
       - name: Upload artifacts
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: model-and-results
           path: |
